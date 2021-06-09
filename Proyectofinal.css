@@ -1,0 +1,211 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilo Header */
+
+header {
+    background-color: #5C97BF;
+    padding: 20px;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+/* chequear este box shadow a ver si hay otro mas acorde */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuprincipal {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 200px;
+    
+}
+
+.menuprincipal li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton {
+    background-color: #394357;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+a:hover {
+    color: #394357;
+}
+.boton:hover {
+    background-color: #4f5d79;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .menuprincipal {
+        display: none;
+    }
+    header {
+        background-color: white;
+        box-shadow: none;
+    }
+
+}
+
+/* Fin Estilo Header */
+/* Estilo Seccion HOLA */
+
+.cuadrohola {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textohola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.textohola div {
+    margin-top: 20px;
+}
+
+img {
+    height: 30em;
+    width: 30em;
+}
+
+.estiloparrafo {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 5px;
+    color: #5C97BF;
+}
+
+h2 {
+    font-size: 2em;
+
+}
+
+@media screen and (max-width: 700px) {
+    .cuadrohola {
+        flex-direction: column;
+    }
+
+    .estiloparrafo, h1 {
+        text-align: center;
+    }
+
+    .textohola div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textohola {
+        margin-right: 0;
+    }
+
+    .imagenhola {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Fin Estilo Seccion HOLA */
+
+/* Estilo Footer */
+
+footer {
+    background-color: #5C97BF;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menusecundario {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menusecundario li {
+    margin: 10px;
+    font-size: 0.9em;
+}
+
+.menuredes {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0;
+}
+
+.contenedorredes {
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedorredes:hover{
+    background-color: #5C97BF;
+    border: 0.5px white solid;
+}
+
+.iconoredes {
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0;
+}
+
+.copyright {
+    color: white;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .menusecundario {
+        display: none;
+    }
+
+}
+
+/* Fin Estilo Footer */
