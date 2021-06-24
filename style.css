@@ -152,7 +152,7 @@ footer {
 
 }
 
-.menusecundario {
+.footer-navegacion {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -162,12 +162,12 @@ footer {
 
 }
 
-.menusecundario li {
+.footer-navegacion li {
     margin: 10px;
     font-size: 0.9em;
 }
 
-.menuredes {
+.footer-menu-iconos {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -175,9 +175,10 @@ footer {
     padding: 0;
 }
 
-.contenedorredes {
+.footer-contenedor-iconos {
     background-color: #FFFFFF;
     border-radius: 100%;
+    border: 0.5px white solid;
     padding: 15px;
     margin: 10px;
     display: flex;
@@ -185,15 +186,17 @@ footer {
 
 }
 
-.contenedorredes:hover{
+.footer-contenedor-iconos:hover{
     background-color: #5C97BF;
-    border: 0.5px white solid;
+    
+} 
+
+.fa {
+    width: 50px;
 }
 
-.iconoredes {
-    height: 1.2em;
-    width: 1.2em;
-    margin: 0;
+.footer-iconos {
+    color: #394357;
 }
 
 .copyright {
