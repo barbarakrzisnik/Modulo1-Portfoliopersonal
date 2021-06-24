@@ -6,6 +6,12 @@ html, body {
     box-sizing: border-box;
 }
 
+
+/* GENERAL */
+
+a {
+    text-decoration: none;
+}
 /* Estilo Nav */
 
 .navegacion-barra {
@@ -39,7 +45,6 @@ html, body {
 }
 
 .navegacion-link {
-    text-decoration: none;
     color: white;
 }
 
