@@ -191,12 +191,13 @@ footer {
     
 } 
 
-.fa {
-    width: 50px;
-}
 
 .footer-iconos {
     color: #394357;
+}
+
+.footer-iconos:hover {
+    color: white;
 }
 
 .copyright {
