@@ -12,6 +12,19 @@ html, body {
 a {
     text-decoration: none;
 }
+
+h2 {
+    font-size: 2em;
+
+}
+
+.seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+}
+
 /* Estilo Nav */
 
 .navegacion-barra {
@@ -76,13 +89,6 @@ a {
 /* Fin Estilo Nav */
 /* Estilo Header */
 
-.seccion {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 2em;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -134,11 +140,6 @@ h1 {
     color: #5C97BF;
 }
 
-h2 {
-    font-size: 2em;
-
-}
-
 @media screen and (max-width: 700px) {
     .header {
         flex-direction: column;
@@ -166,6 +167,109 @@ h2 {
 }
 
 /* Fin Estilo Header */
+
+
+
+/* Estilo Conocimientos */
+
+.conocimientos {
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.conocimientos-texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.conocimientos-contenedor {
+    width: 60%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.conocimientos-card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px rgb(204, 199, 199) solid;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.conocimientos-card:hover {
+    border: 1px  #5C97BF solid;
+    color: #5C97BF;
+}
+
+.conocimientos-card p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.conocimientos-iconos {
+    font-size: 90px;
+}
+
+.fa-html5 {
+   color: #e64d26
+}
+
+.fa-sass {
+    
+}
+/* Fin Estilo Conocimientos */
+
+/* Estilo Frase */
+.frase {
+    background-color: #5C97BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase-icono {
+    font-size: 70px;
+    color: white;
+    margin: 50px;
+}
+
+.frase-texto {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.frase-autor {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+/* Fin Estilo Frase */
 
 /* Estilo Footer */
 
