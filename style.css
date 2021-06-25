@@ -234,9 +234,27 @@ h1 {
    color: #e64d26
 }
 
-.fa-sass {
-    
+.fa-css3-alt{
+    color: #3d8fc6;
 }
+
+.fa-sass {
+    color: #cc6599;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-react {
+    color: #62dafb;
+
+}
+
+.fa-git-alt {
+    color: #f44f28;
+}
+
 /* Fin Estilo Conocimientos */
 
 /* Estilo Frase */
