@@ -14,7 +14,7 @@ a {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
 
 }
 
@@ -101,11 +101,6 @@ h2 {
     margin-right: 50px;
 }
 
-
-.textohola div {
-    margin-top: 20px;
-}
-
 .header-imagen {
     height: 30em;
     width: 30em;
@@ -178,12 +173,12 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .conocimientos-texto {
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
