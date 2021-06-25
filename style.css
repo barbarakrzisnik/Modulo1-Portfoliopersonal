@@ -284,6 +284,22 @@ h1 {
 
 /* Fin Estilo Frase */
 
+/* Estilo Contactame */
+
+.contacto-contenedor {
+    width: 60%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contacto-texto {
+    
+}
+
+/* Fin de Estilo Contactame */
+
 /* Estilo Footer */
 
 footer {
