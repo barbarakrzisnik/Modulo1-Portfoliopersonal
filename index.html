@@ -81,7 +81,7 @@
                 <p class="frase-autor">Someone</p>
             </div>
         </section>
-       <section id="proyectos" class="Proyectos">
+       <!-- <section id="proyectos" class="Proyectos">
         <h2>Mis proyectos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo ducimus, aliquid unde praesentium modi, totam molestiae at cupiditate laudantium consequuntur itaque. Recusandae illo nobis similique voluptas ipsam delectus ipsa!</p>
         <div>
@@ -114,36 +114,38 @@
                 <p>Buscador de peliculas</p>
             </div>
         </div>
-        </section>
-        <section id="contactame" class="seccion">
+        </section> -->
+        <section id="contactame" class="seccion contacto">
             <div class="contacto-contenedor">
                 <div class="contacto-texto">
                     <h2>Contactame</h2>
+                    <div class="contactame-texto-parrafo">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio accusamus pariatur reprehenderit obcaecati perspiciatis tempora facere earum! A, veniam laboriosam nisi aspernatur quis facere id natus quasi mollitia porro repellat.</p>
+                    </div>
                     <ul>
-                        <li><a href="www.twitter.com">Twitter</a></li>
-                        <li><a href="www.twitter.com">Github</a></li>
-                        <li><a href="www.twitter.com">Linkedin</a></li>
-                        <li><a href="www.twitter.com">Email</a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter contacto-texto-iconos"></i>@barbarakr</a></li>
+                        <li><a href="https://www.github.com"><i class="fab fa-github-alt contacto-texto-iconos"></i>barbarakrzisnik</a></li>
+                        <li><a href="https://www.linkedin.com/in/barbara-krzisnik"><i class="fab fa-linkedin-in contacto-texto-iconos"></i>Barbara Krzisnik</a></li>
+                        <li><a href="mailto:barbarakrzisnik3@gmail.com"><i class="fas fa-envelope contacto-texto-iconos"></i>barbarakrzisnik3@gmail.com</a></li>
                     </ul>
                 </div>
-                <div class="seccion contacto-formulario">
+                <div class="contacto-formulario">
                     <h2>Escribime</h2>
                     <form action="/contacto" method="GET"></form>
-
-                        <label for="identificacion_nombre">Nombre
-                        <input type="text" name="nombre" id="identificacion_nombre"
-                        placeholder="Barbara"></label>
-
-                        <label for="identificacion_apellido">Apellido
-                        <input type="text" name="apellido" id="identificacion_apellido"
-                        placeholder="Krzisnik"></label>
-
+                        <div>
+                            <label for="identificacion_nombre">Nombre
+                            <input type="text" name="nombre" id="identificacion_nombre"
+                            placeholder="Barbara"></label>
+        
+                            <label for="identificacion_apellido">Apellido
+                            <input type="text" name="apellido" id="identificacion_apellido"
+                            placeholder="Krzisnik"></label>
+                        </div>
                         <label for="identificacion_email">Email
                         <input type="email" name="email" id="identificacion_email"
                         placeholder="barbarakrzisnik3@gmail.com">
 
-                        <textarea placeholder="Describe" rows="10" cols="30">
+                        <textarea placeholder="Describe" rows="10" cols="40">
                         </textarea>
 
                         <input type="submit" name="enviar" value="Enviar">

@@ -18,6 +18,10 @@ h2 {
 
 }
 
+li {
+    list-style: none;
+}
+
 .seccion {
     display: flex;
     flex-direction: row;
@@ -288,23 +292,42 @@ h1 {
 
 /* Estilo Contactame */
 
+.contacto {
+    background-color: rgb(236, 234, 234);
+
+}
+
 .contacto-contenedor {
     margin: 0;
-    width: 1000px;
+    width: 900px;
+    background-color: white;
     border-radius: 20px;
     border: 1px grey solid;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding: 50px;
 }
 
 .contacto-texto {
+    width: 450px;
     display: flex;
     flex-direction: column;
 
 }
 
+.contacto-texto-iconos{
+    padding: 10px;
+    background-color: hotpink;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.contacto-texto-parrafo {
+    width: 150px;
+}
 .contacto-formulario {
+    width: 450px;
     display: flex;
     flex-direction: column;
 
@@ -327,7 +350,7 @@ footer {
 }
 
 .footer-navegacion {
-    list-style: none;
+    
     display: flex;
     justify-content: space-between;
     color: white;
