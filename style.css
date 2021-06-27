@@ -76,7 +76,7 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
-    .menuprincipal {
+    .navegacion-barra {
         display: none;
     }
     header {
@@ -178,7 +178,7 @@ h1 {
 }
 
 .conocimientos-texto {
-    width: 30%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,7 +188,7 @@ h1 {
 }
 
 .conocimientos-contenedor {
-    width: 60%;
+    width: 1000px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -207,7 +207,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
 
 }
 
@@ -284,19 +284,32 @@ h1 {
 
 /* Fin Estilo Frase */
 
+
+
 /* Estilo Contactame */
 
 .contacto-contenedor {
-    width: 60%;
     margin: 0;
+    width: 1000px;
+    border-radius: 20px;
+    border: 1px grey solid;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
 .contacto-texto {
-    
+    display: flex;
+    flex-direction: column;
+
 }
+
+.contacto-formulario {
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 /* Fin de Estilo Contactame */
 

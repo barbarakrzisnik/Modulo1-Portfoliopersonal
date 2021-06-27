@@ -81,7 +81,7 @@
                 <p class="frase-autor">Someone</p>
             </div>
         </section>
-       <!-- <section id="proyectos" class="Proyectos">
+       <section id="proyectos" class="Proyectos">
         <h2>Mis proyectos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo ducimus, aliquid unde praesentium modi, totam molestiae at cupiditate laudantium consequuntur itaque. Recusandae illo nobis similique voluptas ipsam delectus ipsa!</p>
         <div>
@@ -115,22 +115,45 @@
             </div>
         </div>
         </section>
-        <section id="contactame" class="contactame">
-            <div>
-                <h1>Contactame</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio accusamus pariatur reprehenderit obcaecati perspiciatis tempora facere earum! A, veniam laboriosam nisi aspernatur quis facere id natus quasi mollitia porro repellat.</p>
-                <ul>
-                    <li>Twitter</li>
-                    <li>Github</li>
-                    <li>Linkedin</li>
-                    <li>Mail</li>
-           <!-- Importante poner links aca -->
-        <!--           </ul>
+        <section id="contactame" class="seccion">
+            <div class="contacto-contenedor">
+                <div class="contacto-texto">
+                    <h2>Contactame</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio accusamus pariatur reprehenderit obcaecati perspiciatis tempora facere earum! A, veniam laboriosam nisi aspernatur quis facere id natus quasi mollitia porro repellat.</p>
+                    <ul>
+                        <li><a href="www.twitter.com">Twitter</a></li>
+                        <li><a href="www.twitter.com">Github</a></li>
+                        <li><a href="www.twitter.com">Linkedin</a></li>
+                        <li><a href="www.twitter.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="seccion contacto-formulario">
+                    <h2>Escribime</h2>
+                    <form action="/contacto" method="GET"></form>
+
+                        <label for="identificacion_nombre">Nombre
+                        <input type="text" name="nombre" id="identificacion_nombre"
+                        placeholder="Barbara"></label>
+
+                        <label for="identificacion_apellido">Apellido
+                        <input type="text" name="apellido" id="identificacion_apellido"
+                        placeholder="Krzisnik"></label>
+
+                        <label for="identificacion_email">Email
+                        <input type="email" name="email" id="identificacion_email"
+                        placeholder="barbarakrzisnik3@gmail.com">
+
+                        <textarea placeholder="Describe" rows="10" cols="30">
+                        </textarea>
+
+                        <input type="submit" name="enviar" value="Enviar">
+
+                        </label>
+                    </form>
+                </div>
             </div>
-            <div>
-                <p>ACA VA FORMS</p>
-            </div>
-        </section> --> 
+           
+        </section> 
     </main>
     <footer>
 
