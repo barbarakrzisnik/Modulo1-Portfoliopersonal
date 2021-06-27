@@ -295,13 +295,35 @@ h1 {
 
 /* Fin Estilo Frase */
 
+/* Estilo Proyectos */
 
+.
+
+.proyectos-contenedor {
+    margin: 0;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.proyectos-card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px rgb(204, 199, 199) solid;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 
 /* Estilo Contactame */
 
 .contacto {
     background-color: rgb(236, 234, 234);
-
 }
 
 .contacto-contenedor {
