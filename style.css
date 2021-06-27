@@ -328,6 +328,22 @@ h1 {
     margin: 5px;
 }
 
+.contacto-texto-menu-links .contacto-texto-iconos:hover {
+    color: white;
+    background-color: #5C97BF;
+}
+
+.contacto-texto-menu-links .contacto-texto-links:hover {
+    color: #5C97BF;
+}
+
+.contacto-texto-contenedor-links:focus {
+    box-shadow: 0px 0px 7px #5C97BF;
+    border-radius: 30px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
 .contacto-texto-parrafo {
     width: 150px;
 }
@@ -335,8 +351,17 @@ h1 {
     width: 450px;
     display: flex;
     flex-direction: column;
-
 }
+
+
+.contacto-formulario-input {
+    background-color: rgb(248, 246, 246);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+
 
 
 /* Fin de Estilo Contactame */
@@ -369,15 +394,12 @@ footer {
     font-size: 0.9em;
 }
 
-.footer-menu-iconos {
-    list-style: none;
+.footer-redes-menu {
     display: flex;
     justify-content: space-between;
-    color: white;
-    padding: 0;
 }
 
-.footer-contenedor-iconos {
+.footer-redes-links {
     background-color: #FFFFFF;
     border-radius: 100%;
     border: 0.5px white solid;
@@ -388,18 +410,18 @@ footer {
 
 }
 
-
-.footer-contenedor-iconos:hover{
-    background-color: #5C97BF;
-    
-} 
-
-.footer-iconos {
+.footer-redes-iconos {
     color: #394357;
     font-size: 20px;
 }
 
-.footer-iconos:hover {
+
+.footer-redes-menu .footer-redes-links:hover{
+    background-color: #5C97BF;
+    
+} 
+
+.footer-redes-menu .footer-redes-iconos:hover {
     color: white;
 }
 
