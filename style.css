@@ -40,7 +40,6 @@ ul {
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
-/* chequear este box shadow a ver si hay otro mas acorde */
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -53,18 +52,20 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    color: white;
     margin-right: 200px;
     
 }
 
-.navegacio-menu-link li {
-    margin: 20px;
+.navegacion-link {
+    margin: 10px;
+    color: white;
+    background-color: #5C97BF;
+    box-shadow: 0px 0px 7px #5C97BF;
+    border-radius: 20px;
+    padding: 10px 10px;
 }
 
-.navegacion-link {
-    color: white;
-}
+
 
 .navegacion-link-contacto {
     background-color: #394357;
@@ -74,6 +75,11 @@ ul {
 
 .navegacion-link:hover {
     color: #394357;
+}
+
+.navegacion-link:focus {
+    box-shadow: 0px 0px 7px #394357;
+
 }
 .navegacion-link-contacto:hover {
     background-color: #4f5d79;
@@ -319,10 +325,16 @@ h1 {
 
 .contacto-texto-links {
     color: black;
+    
+}
+
+.contacto-texto-links:focus {
     box-shadow: 0px 0px 7px #5C97BF;
     border-radius: 20px;
     padding: 15px 10px 15px 0px;
+
 }
+
 .contacto-texto-iconos{
     padding: 10px;
     font-size: 20px;
