@@ -120,9 +120,9 @@
                 <div class="contacto-texto">
                     <h2>Contactame</h2>
                     <div class="contactame-texto-parrafo">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio accusamus pariatur reprehenderit obcaecati perspiciatis tempora facere earum! A, veniam laboriosam nisi aspernatur quis facere id natus quasi mollitia porro repellat.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio accusamus pariatur reprehenderit obcaecati perspiciatis tempora facere earum! A, veniam laboriosam nisi aspernatur.</p>
                     </div>
-                    <ul>
+                    <ul class="contacto-texto-menu-links">
                         <li><a href="https://www.twitter.com" class="contacto-texto-links"><i class="fab fa-twitter contacto-texto-iconos"></i>@barbarakr</a></li>
                         <li><a href="https://www.github.com" class="contacto-texto-links"><i class="fab fa-github-alt contacto-texto-iconos"></i>barbarakrzisnik</a></li>
                         <li><a href="https://www.linkedin.com/in/barbara-krzisnik" class="contacto-texto-links"><i class="fab fa-linkedin-in contacto-texto-iconos"></i>Barbara Krzisnik</a></li>
@@ -133,17 +133,22 @@
                     <h2>Escribime</h2>
                     <form action="/contacto" method="GET"></form>
                         <div>
-                            <label for="identificacion_nombre">Nombre
-                            <input type="text" name="nombre" id="identificacion_nombre"
-                            placeholder="Barbara"></label>
+                            <div class="contacto-formulario-campo">
+                                <label for="identificacion_nombre">Nombre
+                                <input type="text" name="nombre" id="identificacion_nombre"
+                                class="contacto-formulario-input" placeholder="Barbara">
+                                </label>
+                            </div>
+                            
         
                             <label for="identificacion_apellido">Apellido
                             <input type="text" name="apellido" id="identificacion_apellido"
-                            placeholder="Krzisnik"></label>
+                            class="contacto-formulario-input" placeholder="Krzisnik">
+                            </label>
                         </div>
-                        <label for="identificacion_email">Email
+                        <label for="identificacion_email">Email</label>
                         <input type="email" name="email" id="identificacion_email"
-                        placeholder="barbarakrzisnik3@gmail.com">
+                        class="contacto-formulario-input" placeholder="barbarakrzisnik3@gmail.com">
 
                         <textarea placeholder="Describe" rows="10" cols="40">
                         </textarea>
@@ -165,11 +170,11 @@
                 <li><a href="#proyectos" class="navegacion-link">PROYECTOS</a></li>
                 <li><a href="#contactame" class="navegacion-link">CONTACTO</a></li>
             </ul>
-        <ul class="footer-menu-iconos">
-            <li><a href="https://www.twitter.com" class="footer-contenedor-iconos"><i class="fab fa-twitter footer-iconos"></i></a></li>
-            <li><a href="https://www.linkedin.com" class="footer-contenedor-iconos"><i class="fab fa-linkedin-in footer-iconos"></i></a></li>
-            <li><a href="https://www.github.com" class="footer-contenedor-iconos"><i class="fab fa-github-alt footer-iconos"></i></a></li>
-            <li><a href="https://www.github.com" class="footer-contenedor-iconos"><i class="fas fa-envelope footer-iconos"></i></a></li>
+        <ul class="footer-redes-menu">
+            <li><a href="https://www.twitter.com" class="footer-redes-links"><i class="fab fa-twitter footer-redes-iconos"></i></a></li>
+            <li><a href="https://www.linkedin.com" class="footer-redes-links"><i class="fab fa-linkedin-in footer-redes-iconos"></i></a></li>
+            <li><a href="https://www.github.com" class="footer-redes-links"><i class="fab fa-github-alt footer-redes-iconos"></i></a></li>
+            <li><a href="https://www.github.com" class="footer-redes-links"><i class="fas fa-envelope footer-redes-iconos"></i></a></li>
         </ul>
         <p class="footer-copyright">Hecho con ♥ por Ada </p>
     </footer>
