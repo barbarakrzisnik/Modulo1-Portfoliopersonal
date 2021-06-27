@@ -307,7 +307,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding: 60px 40px 60px 40px;
+    padding: 60px 50px 60px 50px;
 }
 
 .contacto-texto {
@@ -317,9 +317,13 @@ h1 {
 
 }
 
+.contacto-texto-links {
+    color: black;
+}
 .contacto-texto-iconos{
     padding: 10px;
-    background-color: hotpink;
+    font-size: 20px;
+    color: #5C97BF;
     border-radius: 20px;
     margin: 5px;
 }
