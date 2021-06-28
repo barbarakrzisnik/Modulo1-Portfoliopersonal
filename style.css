@@ -297,27 +297,51 @@ h1 {
 
 /* Estilo Proyectos */
 
-.
+.proyectos {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.proyectos-columna-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos-texto {
+    width: 400px;
+    text-align: center;
+}
 
 .proyectos-contenedor {
     margin: 0;
     width: 1100px;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
 
 }
+
 .proyectos-card {
     background-color: white;
+    color: black;
     border-radius: 10px;
     border: 1px rgb(204, 199, 199) solid;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
+    
 }
 
 /* Estilo Contactame */
