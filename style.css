@@ -64,7 +64,6 @@ img {
     margin: 10px;
     color: white;
     background-color: #5C97BF;
-    box-shadow: 0px 0px 7px #5C97BF;
     border-radius: 20px;
     padding: 10px 10px;
 }
@@ -346,6 +345,15 @@ h1 {
     align-items: center;
     margin: 20px;
     
+}
+
+.proyectos-card:hover {
+    border: 1px #5C97BF solid;
+    color: #5C97BF;
+}
+
+.proyectos-card:focus {
+    box-shadow: 0px 0px 7px #5C97BF;
 }
 
 .proyectos-card-imagen {
