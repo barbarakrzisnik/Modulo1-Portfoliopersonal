@@ -420,27 +420,33 @@ h1 {
 }
 
 .contacto-formulario {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
+    font-weight: bold;
 }
 
 .contacto-formulario-contenedores {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .contacto-formulario-contenedores-columna {
     display: flex;
     flex-direction: column;
+    /* width: 100%; */
 }
 
 .contacto-formulario-input {
+    width: 100%;
+    box-sizing: border-box;
     background-color: rgb(248, 246, 246);
-    border-radius: 10px;
+    border-radius: 20px ;
     border: none;
-    padding: 10px;
-    border: none;
+    padding: 10px 15px;
+    margin: 10px 15px 15px 0px;
+
 }
 
 .contacto-formulario-enviar {
@@ -452,6 +458,8 @@ h1 {
     padding: 10px 30px 10px 30px;
     border: none;
 }
+
+
 
 
 /* Fin de Estilo Contactame */
