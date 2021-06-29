@@ -148,26 +148,30 @@
                 <div class="contacto-formulario">
                     <h2>Escribime</h2>
                     <form action="/contacto" method="GET"></form>
-                    <div>
-                        <label for="identificacion_nombre">Nombre
+                    <div class="contacto-formulario-contenedores">
+                        <div class="contacto-formulario-contenedores-columna"> 
+                            <label for="identificacion_nombre">Nombre * </label>
                             <input type="text" name="nombre" id="identificacion_nombre"
                                 class="contacto-formulario-input" placeholder="p. ej.:Barbara">
-                        </label>
-
-                        <label for="identificacion_apellido">Apellido
+                        </div>
+                        <div class="contacto-formulario-contenedores-columna"> 
+                            <label for="identificacion_apellido">Apellido * </label>
                             <input type="text" name="apellido" id="identificacion_apellido"
                                 class="contacto-formulario-input" placeholder="p. ej.:Krzisnik">
-                        </label>
+                        </div>
                     </div>
-                    <label for="identificacion_email">Email</label>
-                    <input type="email" name="email" id="identificacion_email" class="contacto-formulario-input"
+                    <div class="contacto-formulario-contenedores-columna">
+                        <label for="identificacion_email">Email</label>
+                        <input type="email" name="email" id="identificacion_email" class="contacto-formulario-input"
                         placeholder="p. ej.:barbarakrzisnik3@gmail.com">
-
-                    <textarea placeholder="Describe" rows="10" cols="40">
+                    </div>
+                    <div class="contacto-formulario-contenedores-columna">
+                        <textarea placeholder="Describe" rows="10" cols="40">
                         </textarea>
-
-                    <input type="submit" name="enviar" value="Enviar">
-
+                    </div>
+                    <div class="contacto-formulario-contenedores">
+                        <input type="submit" name="enviar" value="Enviar" class="contacto-formulario-enviar">
+                    </div>
                     </label>
                     </form>
                 </div>
