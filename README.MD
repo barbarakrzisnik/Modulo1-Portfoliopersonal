@@ -15,6 +15,7 @@ Otras herramientas:
 Undraw, Github, Fontawesome, Googlefonts
 ___
 
->Para ver mi proyecto ingrese [aquí](https://barbarakrzisnik.github.io/Modulo1-Portfoliopersonal/)
+### Para ver mi proyecto ingrese [aquí](https://barbarakrzisnik.github.io/Modulo1-Portfoliopersonal/)  
 
+  
 <img src="./img/Asset 5.png">
