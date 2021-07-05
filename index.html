@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <main>
-        <nav class="navegacion-barra">
+    <nav class="navegacion">
+        <div class="navegacion-barra">
             <div class="navegacion-menu">
                 <ul class="navegacio-menu-link">
                     <li><a href="#Hola" class="navegacion-link">HOLA</a></li>
@@ -24,7 +24,9 @@
                     <li><a href="#contactame" class="navegacion-link navegacion-link-contacto">CONTACTO</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <main>
         <header>
             <div id="Hola" class="seccion seccion-header">
                 <div class="header">
@@ -150,12 +152,12 @@
                     <h2>Escribime</h2>
                     <form action="/contacto" method="GET"></form>
                     <div class="contacto-formulario-contenedores">
-                        <div class="contacto-formulario-contenedores-columna"> 
+                        <div class="contacto-formulario-contenedores-columna">
                             <label for="identificacion_nombre">Nombre * </label>
                             <input type="text" name="nombre" id="identificacion_nombre"
                                 class="contacto-formulario-input" placeholder="p. ej.:Barbara">
                         </div>
-                        <div class="contacto-formulario-contenedores-columna"> 
+                        <div class="contacto-formulario-contenedores-columna">
                             <label for="identificacion_apellido">Apellido * </label>
                             <input type="text" name="apellido" id="identificacion_apellido"
                                 class="contacto-formulario-input" placeholder="p. ej.:Krzisnik">
@@ -164,13 +166,14 @@
                     <div class="contacto-formulario-contenedores-columna">
                         <label for="identificacion_email">Email</label>
                         <input type="email" name="email" id="identificacion_email" class="contacto-formulario-input"
-                        placeholder="p. ej.:barbarakrzisnik3@gmail.com">
+                            placeholder="p. ej.:barbarakrzisnik3@gmail.com">
                     </div>
                     <div class="contacto-formulario-contenedores-columna">
                         <label>Mensaje * </label>
-                        <textarea  rows="10" cols="40" class="contacto-formulario-input" placeholder="Escriba un mensaje aqui.">
+                        <textarea rows="10" cols="40" class="contacto-formulario-input"
+                            placeholder="Escriba un mensaje aqui.">
                         </textarea>
-                    
+
                     </div>
                     <div class="contacto-formulario-contenedores">
                         <input type="submit" name="enviar" value="Enviar" class="contacto-formulario-enviar">
