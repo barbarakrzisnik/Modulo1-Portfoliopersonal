@@ -154,6 +154,7 @@ h1 {
   .seccion-header {
     flex-direction: column;
     padding-top: 100px;
+    align-items: center;
   }
   .header {
     justify-content: center;
@@ -162,6 +163,9 @@ h1 {
     margin-top: 5em;
     height: 15em;
     width: 15em;
+  }
+  .header-texto {
+    margin: 0;
   }
 
   .header-texto-parrafo,
@@ -181,6 +185,18 @@ h1 {
     display: flex;
     justify-content: center;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .header-imagen-contenedor {
+    width: 300px;
+  }
+
+  .header-texto {
+    width: 300px;
+    text-align: center;
+  }
+
 }
 
 /* Fin Estilo Header */
@@ -273,6 +289,29 @@ h1 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .conocimientos-card {
+    width: 200px;
+    height: 200px;
+  }
+
+  .conocimientos-contenedor {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .conocimientos-contenedor {
+    width: 300px;
+  }
+  .conocimientos-texto {
+    width: 280px;
+  }
+  .conocimientos-h2 {
+    font-size: 30px;
+  }
+}
+
 /* Fin Estilo Conocimientos */
 
 /* Estilo Frase */
@@ -303,6 +342,13 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   color: white;
+}
+
+@media screen and (max-width: 320px) {
+  .frase-texto {
+    font-size: 18px;
+    width: 200px;
+  }
 }
 
 /* Fin Estilo Frase */
@@ -408,6 +454,31 @@ h1 {
     margin: 20px;
   }
 
+}
+
+@media screen and (max-width: 600px) {
+  .proyectos-contenedor {
+    width: 500px;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .proyectos-contenedor {
+    width: 300px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .proyectos-card {
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+  }
+  .proyectos-texto {
+    width: 250px;
+  }
 }
 
 /* Estilo Contactame */
@@ -567,6 +638,37 @@ h1 {
     }
     .contacto-texto {
       width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contacto-contenedor {
+      width: 400px;
+    }
+    .contacto-formulario {
+      width: 400px;
+    }
+    .contacto-texto {
+      width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .contacto-contenedor {
+      width: 300px;
+    }
+    .contacto-formulario {
+      width: 300px;
+    }
+    .contacto-texto {
+      width: 300px;
+    }
+    .contacto-texto-menu-links {
+      flex-direction: column;
+    }
+    .contacto-formulario-contenedores {
+      display: flex;
+      flex-direction: column;
     }
   }
 
