@@ -2,7 +2,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  height: 100%;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
@@ -26,7 +25,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2em;
 }
 
 img {
@@ -35,6 +33,10 @@ img {
 
 /* Estilo Nav */
 
+.navegacion {
+  position: fixed;
+  width: 100%;
+}
 .navegacion-barra {
   background-color: #5c97bf;
   padding: 20px;
@@ -84,13 +86,9 @@ img {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
-  .navegacion-barra {
+@media screen and (max-width: 1100px) {
+  .navegacion {
     display: none;
-  }
-  header {
-    background-color: white;
-    box-shadow: none;
   }
 }
 
@@ -100,6 +98,15 @@ img {
 .header {
   display: flex;
   justify-content: space-between;
+
+}
+
+.seccion-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .header-texto {
@@ -142,11 +149,11 @@ h1 {
   color: #5c97bf;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
 
   .seccion-header {
     flex-direction: column;
-    margin-top: 100px;
+    padding-top: 100px;
   }
   .header {
     justify-content: center;
@@ -160,6 +167,7 @@ h1 {
   .header-texto-parrafo,
   h1 {
     text-align: center;
+    margin: 0;
   }
 
   .header-texto div {
@@ -201,7 +209,6 @@ h1 {
 
 .conocimientos-contenedor {
   width: 1000px;
-  /* width: 80%; */
   margin: 0;
   display: flex;
   justify-content: center;
@@ -240,8 +247,6 @@ h1 {
   .conocimientos-contenedor {
     width: 600px;
   }
-  
-
 }
 
 .fa-html5 {
@@ -277,6 +282,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .frase-icono {
@@ -359,11 +366,17 @@ h1 {
   width: 90%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .proyectos-contenedor {
-    width: 600px;
+    width: 1000px;
+    padding: 0;
   }
   
+  .proyectos-card {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+  }
 
 }
 
@@ -377,7 +390,7 @@ h1 {
 
 .contacto-contenedor {
   margin: 0;
-  /* width: 1100px; */
+  width: 1000px;
   background-color: white;
   border-radius: 20px;
   border: 1px #e5e6eb solid;
@@ -471,9 +484,10 @@ h1 {
   }
 
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1100px) {
     .contacto-contenedor {
-      flex-direction: column;
+      width: 800px;
+      
     }
     
 
@@ -484,8 +498,7 @@ h1 {
 
 footer {
   background-color: #5c97bf;
-  height: 30%;
-  width: 100%;
+  height: 250px;
   display: flex;
   justify-content: center;
   flex-direction: column;
