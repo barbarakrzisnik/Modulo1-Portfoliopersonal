@@ -243,12 +243,6 @@ h1 {
   font-size: 90px;
 }
 
-@media screen and (max-width: 800px) {
-  .conocimientos-contenedor {
-    width: 600px;
-  }
-}
-
 .fa-html5 {
   color: #e64d26;
 }
@@ -271,6 +265,12 @@ h1 {
 
 .fa-git-alt {
   color: #f44f28;
+}
+
+@media screen and (max-width: 900px) {
+  .conocimientos-contenedor {
+    width: 600px;
+  }
 }
 
 /* Fin Estilo Conocimientos */
@@ -377,6 +377,20 @@ h1 {
     height: 300px;
     margin: 10px;
   }
+}
+
+@media screen and (max-width: 900px) {
+  .proyectos-contenedor {
+    width: 800px;
+    padding: 0;
+    
+  }
+  
+  .proyectos-card {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+  }
 
 }
 
@@ -452,7 +466,6 @@ h1 {
 .contacto-formulario-contenedores-columna {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
 }
 
 .contacto-formulario-input {
@@ -487,11 +500,36 @@ h1 {
   @media screen and (max-width: 1100px) {
     .contacto-contenedor {
       width: 800px;
-      
     }
-    
-
   }
+  @media screen and (max-width: 900px) {
+    .contacto {
+      background-color: white;
+      padding-top: 0;
+    }
+    .contacto-contenedor {
+      flex-direction: column;
+      width: 800px;
+      border: none;
+      padding: 0;
+    }
+
+    .contacto-formulario {
+      width: 800px;
+    }
+    .contacto-texto {
+      width: 800px;
+    }
+    .contacto-texto-menu-links {
+      display: flex;
+      justify-content: space-between;
+    }
+    .contacto-formulario-contenedores-columna {
+      width: 100%;
+      margin-right: 5px;
+    }
+  }
+
 /* Fin de Estilo Contactame */
 
 /* Estilo Footer */
