@@ -200,7 +200,6 @@ h1 {
 }
 
 /* Fin Estilo Header */
-
 /* Estilo Conocimientos */
 
 .conocimientos {
@@ -715,11 +714,11 @@ footer {
   font-size: 20px;
 }
 
-.footer-redes-menu .footer-redes-links:hover {
+.footer-redes-links:hover {
   background-color: #5c97bf;
 }
 
-.footer-redes-menu .footer-redes-iconos:hover {
+.footer-redes-iconos:hover {
   color: white;
 }
 
